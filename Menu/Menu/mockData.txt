@@ -1,0 +1,13 @@
+001 | Macbook Pro 13 | 30000000
+002 | Macbook Pro 14 | 33500000
+003 | Macbook Pro 15 | 36700000
+004 | Macbook Pro 16 | 43000000
+005 | Dell XPS 9310 | 41500000
+006 | Dell XPS 9650 | 45800000
+007 | Asus Duo 14 | 33850000
+008 | Asus Duo 16 | 37000000
+009 | Asus ProArt 977 | 48000000
+010 | Acer TravelMate 8790 | 33000000
+011 | Acer Helios 300 | 44000000
+012 | HP Probook 14 | 37000000
+013 | HP Folio Surge | 38500000

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Business">
+      <UniqueIdentifier>{8e4c0bb3-ad00-4573-9e8d-4d2981427a96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity">
+      <UniqueIdentifier>{51854772-80e2-4cba-97ee-15a9cc4b2f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helper">
+      <UniqueIdentifier>{babd807b-668c-4417-9cf8-220e11566757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Business">
+      <UniqueIdentifier>{f274d91f-d28c-4267-9709-536e8a0d0feb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Entity">
+      <UniqueIdentifier>{17895a65-5742-4ecb-9112-f1126ef3cf08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Helper">
+      <UniqueIdentifier>{bfe453e1-a1a2-4fda-9de0-4f750f89408b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{92d50c8c-7585-449b-a15d-25c087cbf52a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\UI">
+      <UniqueIdentifier>{ca95a913-479e-40a0-824c-afa7d7410e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Data">
+      <UniqueIdentifier>{0f0c4ef9-cddc-43f8-925d-bbb9c6db56e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Resource Files\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductToRowConverter.cpp">
+      <Filter>Resource Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Product.cpp">
+      <Filter>Resource Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Table.cpp">
+      <Filter>Resource Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductToAttributeListConverter.cpp">
+      <Filter>Resource Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Resource Files\Business</Filter>
+    </ClCompile>
+    <ClCompile Include="ParserFactory.cpp">
+      <Filter>Resource Files\Business</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Product.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="IParsable.h">
+      <Filter>Header Files\Business</Filter>
+    </ClInclude>
+    <ClInclude Include="IValueConverter.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductToRowConverter.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorsEnum.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="KeysEnum.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductToAttributeListConverter.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductOperationsEnum.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\Business</Filter>
+    </ClInclude>
+    <ClInclude Include="ParserFactory.h">
+      <Filter>Header Files\Business</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="mockData.txt">
+      <Filter>Resource Files\Data</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
